@@ -7,10 +7,10 @@ function ResultTable(props) {
                 <thead>
                     <tr>
                         <th scope="col">Photo</th>
-                        <th scope="col"><button className="badge badge-primary" name="first"  value={props.results} onClick={props.sortColumn}>First</button></th>
-                        <th scope="col"><button className="badge badge-primary" name="last"  value={props.results} onClick={props.sortColumn}>Last</button></th>
-                        <th scope="col"><button className="badge badge-primary" name="email"  value={props.results} onClick={props.sortColumn}>Email</button></th>
-                        <th scope="col"><button className="badge badge-primary" name="location" value={props.results} onClick={props.sortColumn}>Location</button></th>
+                        <th scope="col"><button className="badge badge-primary" name="first" onClick={props.sortColumn}>First</button></th>
+                        <th scope="col"><button className="badge badge-primary" name="last" onClick={props.sortColumn}>Last</button></th>
+                        <th scope="col"><button className="badge badge-primary" name="email" onClick={props.sortColumn}>Email</button></th>
+                        <th scope="col"><button className="badge badge-primary" name="location" onClick={props.sortColumn}>Location</button></th>
 
                     </tr>
                 </thead>

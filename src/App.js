@@ -6,9 +6,8 @@ import UserSearch from "./components/UserSearch";
 
 class App extends React.Component {
   state = {
-    allResults: [],
     results: [],
-    search: "",
+    search: ""
   };
 
   componentDidMount() {
@@ -52,6 +51,7 @@ class App extends React.Component {
   
   sortColumn = (event) => {
     event.preventDefault();
+    console.log(this.state.results)
     const sortedResult = this.state.results.sort(function (a, b) {
       let firstComp = '';
       let secondComp = '';
