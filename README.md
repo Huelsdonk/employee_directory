@@ -4,7 +4,7 @@
  
 
 # Description
-    This application was built using React Create. It queries an API with Axios for a random list of employees and displays them in a table. The user can search for all the employees in a certain country and can sort the employees by last name. The app is deployed 
+    This application was built using React Create. It queries an API with Axios for a random list of employees and displays them in a table. The user can search for all the employees in a certain country and can sort the employees by last name. The app is deployed at https://boiling-meadow-78585.herokuapp.com/. 
     
 
 
